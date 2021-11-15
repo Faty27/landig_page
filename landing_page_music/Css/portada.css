@@ -1,0 +1,123 @@
+:root{
+    --color-green: #51e2aa; /* rgb(81,226,170) */
+    --color-black: #111725; /* rgb(17,23,37) */
+    --font-family-title: 'Zen Kaku Gothic New', sans-serif;
+    --font-family-text:  'Roboto', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: vaar(--font-family-text);
+}
+
+body{
+    margin: 0;
+    background-color: var(--color-black);
+}
+
+.po-wrapper{
+    background-image: linear-gradient( to right, var(--color-black), rgb(81,226,170,0.5)), url(../assest/img/singer1.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+    margin: 8rem;
+    min-height: 70vh;
+    position: relative;
+}
+
+.po-main{
+    background-color: var(--color-black);
+    width: 60%;
+    padding-top: 4rem;
+    padding-right: 4rem;
+    margin-top: 14rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.po-title{
+    margin-bottom: 1rem;
+    font-family: var(--font-family-title);
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 3rem;
+    text-transform: uppercase;
+}
+.po-title--green{
+    color: var(--color-green);
+}
+.po-title--white{
+    color: white;
+}
+.po-text{
+    width: 355px;
+    margin-bottom: 1.5rem;
+    color:gray;
+    font-family: var(--font-family-title);
+    font-weight: bolder;
+}
+
+.po-form{
+    margin-bottom: 1.5rem;
+    position: relative;
+    width: 100%;
+    
+}
+.po-links-img{
+    height: 2rem;
+}
+
+.po-form-email{
+    width:738px;
+    background-color: rgb(82, 79, 79);
+    border-radius:15px;
+    padding: 1rem 2rem;
+
+}
+
+.po-form-button{
+    position: absolute;
+    background-color:#70e3b4;
+    color: white;
+    padding:1rem 2rem;
+    border-radius:20px;
+    z-index: 2;
+    top:0;
+    right: 0;
+}
+
+.alerta{
+    display: none;
+    color: red;
+    font-size: 20px;
+}
+
+/* ---- TABLET --- */
+@media screen and (min-width:768px) and (max-width:1023px){
+    /* .po-wrapper{
+        background-size: cover;
+        margin: 0;
+        max-height: 100vh;
+       
+       
+    }
+    .po-main {
+        position:absolute;
+        top:0;
+        bottom: 0;
+        width: 100vh;
+      
+       
+    }
+    /* .po-form-email{
+        width: 80%;
+    } */ 
+
+
+
+/* ---- mobile---- */
+
+@media  screen and(max-width:767px) {
+    
+}

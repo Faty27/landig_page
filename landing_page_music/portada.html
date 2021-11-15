@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/portada.css" type="text/css">
+    
+    <title>Pod</title>
+</head>
+<body>
+
+    <div class="po-wrapper">
+
+        <img class="po-logo" src="assest/img/Captura.PNG">
+
+        <main class="po-main">
+
+            <h1 class="po-title">
+                <span class="po-title--green">PUBLISH YOUR PODCASTS</span><br>
+                <span class="po-title--white">EVERYWHERE.</span>
+            </h1>
+
+            <p class="po-text">Upload your audio to Pod with a single click. We'll then disttribute your podcast to Spotify. Apple Podcasts. Google Podcasts. Pocket Casts and mre!</p>
+            
+            <form action="" class="po-form">
+                <input type="email" class="po-form-email" id="campo" placeholder="Email addres">
+                <input type="button" class="po-form-button" value="Request Access" onclick="formulario()">
+                <span id="alertaNombre" class="alerta">Introduce un email para poder subcribirse</span>
+            </form>
+
+            <div class="po-logos">
+                <a href=""><img class="po-links-img" src="assest/img/iconos/l_spotify.png"></a>
+                <a href=""><img class="po-links-img" src="assest/img/iconos/l_apple.png"></a>
+                <a href=""><img class="po-links-img" src="assest/img/iconos/l_google.png"></a>
+                <a href=""><img class="po-links-img" src="assest/img/iconos/podcast-pocketcasts.png"></a>
+            </div>
+        
+        </main>
+    </div>
+
+    <script src="Js/portada.js"></script>
+</body>
+</html>
